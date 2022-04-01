@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'jleroux Docker Hub'
-        repository: 'jleroux/weatherapi'
+        repository: 'jleroux751/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
